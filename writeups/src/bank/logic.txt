@@ -1,0 +1,5 @@
+assert sender != receiver && receiver != "hacker"
+assert amount > 0
+assert sender in { dict }
+assert receiver in { dict }
+assert money[sender] >= amount
